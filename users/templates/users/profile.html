@@ -1,0 +1,10 @@
+{% extends 'users/base.html' %}
+{% load crispy_forms_tags %}
+
+
+{% block content %}
+    <div class="container">
+        <h2 style="color: rgb(11, 12, 12); text-align: center;">{{user.username}}</h2>
+    <h2 style="color: rgb(11, 12, 12); text-align: center;">{{user.email}}</h2>
+    </div>
+{% endblock %}

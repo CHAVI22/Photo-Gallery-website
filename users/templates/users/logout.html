@@ -1,0 +1,12 @@
+
+{% extends 'users/base.html' %}
+{% load crispy_forms_tags %}
+
+
+{% block content %}
+    <div style="text-align:center;" class="container">
+        <h1 style="color:black;">You have been Logged out</h1>
+        <!-- <h5><a href="{% url 'login' %}">Login In Again</a></h5> -->
+        <h5><a href="{% url 'index' %}"><button style="border:2px solid red; background-color:black; color:white;" class="btn ">BACK-TO-WEBSITE</button></a></h5>
+    </div>
+{% endblock %}

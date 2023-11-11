@@ -1,0 +1,18 @@
+{% extends 'users/base.html' %}
+{% load static %}
+{% block content %}
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+    <div class="container">
+            <div class="row g-0">
+                <div class="col-sm-6 col-md-8" id="header-text">
+                  <h1 style="color: rgb(128, 71, 249); font-size: 25pt; font-style: italic; text-align: center;"  id="header-h1">"WELCOME TO OUR PHOTOGRAPHY PORTAL"</h1>
+                  <h5 style="color: rgb(11, 12, 12); text-align: center;">A GOOD SNAPSHOT KEEPS A MOMENT FROM RUNNING AWAY</h5>
+                  <br>
+                  <p style="color: rgb(14, 15, 15);" id="header-paragraph"><br> Authorised By  <span style="font-style:italic; font-size:larger; color: blueviolet; ">-Team Excel</span></p>
+                  <a class="btn" style="color: rgb(236, 232, 228); background-color: #f56b2b;"type="submit" id="body-link-row">Discover More</a>
+                </div>
+
+                <div class="col-6 col-md-4" id="header-image"><img src="{% static 'img/photo.jfif' %}" alt="" width="450" heigth="500"></div>
+              </div>
+    </div>
+{% endblock content %}
